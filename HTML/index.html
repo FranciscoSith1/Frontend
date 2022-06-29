@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- permite los caracteres especiales como "ñ" -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--es para tener compatibilidad con los browsers como explorer -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos HTML</title>
+</head>
+
+<body>
+    <!-- Heading -->
+    <h1>Titulos h1 </h1>
+    <h2>Titulos h2</h2>
+    <h3>Titulos h3</h3>
+    <h4>Titulos h4</h4>
+    <h5>Titulos h5</h5>
+    <h6>Titulos h6</h6>
+    <br>
+    <hr>
+    <!-- Linea horizontal -->
+
+    <!-- Parrafos -->
+    <p>
+        La <b>batería</b> es un <i>conjunto de instrumentos musicales</i> de percusión <u>usado por muchas</u> agrupaciones musicales.
+    </p>
+    <p>
+        <b><i><u>Francisco Cid Segovia</u></i></b>
+    </p>
+    <br>
+    <hr>
+    <!-- IMAGENES -->
+    <!-- el alt actua cuando el src no encuentra nada-->
+    <img src="assets/img/bateria.jpg" alt="imagen 1" width="150" height="150">
+    <img src="imagen.png" alt="imagen sin src">
+    <img src="assets/img/53J.png" alt="imagen2" width="100">
+    <!-- al agregar solo uno de los valores de tamaño la imagen mantendra la proporcion-->
+    <br>
+    <hr>
+    <!-- LINKS O HIPERVINCULOS -->
+    <a href="https://chile.generation.org/" target="_blank"> Haga click aquí </a>
+    <br>
+    <!-- url es un valor absoluto porque nos dirige a otra pagina web (fuera del dominio)-->
+    <a href="https://validator.w3.org/">No mejor aqui</a>
+    <!-- url de valor relativo, es de uso interno, dentro del mismo dominio web-->
+    <a href="pagina2.html"> otra pagina</a>
+    <!-- url valor de anclaje, movernos dentro de la misma pagina-->
+    <a href="#">ir a seccion de la pagina</a>
+    <!-- -->
+    <a href="https://chile.generation.org/" target="_blank">
+        <img src="assets/img/nutria.jfif" alt="nutria" width="120">
+    </a>
+    <br>
+    <hr>
+    <!-- LISTAS: ORDENADAS Y NO ORDENADAS -->
+    <ol>
+        <li>grupo 1</li>
+        <li>grupo 2</li>
+        <li>grupo 3</li>
+        <li>grupo 4</li>
+        <li>grupo 5</li>
+        <li>grupo 6</li>
+        <li>grupo 7
+            <ol>
+                <li>grupo 7.1</li>
+                <li>grupo 7.2</li>
+            </ol>
+        </li>
+    </ol>
+    <br>
+    <ul>
+        <li>grupo 1</li>
+        <li>grupo 2</li>
+        <li>grupo 3</li>
+        <li>grupo 4</li>
+        <li>grupo 5</li>
+        <li>grupo 6</li>
+        <li>grupo 7
+            <ul>
+                <li>grupo 7.1</li>
+                <li>grupo 7.2</li>
+                <li>
+                    <ul>
+                        <li>curso a</li>
+                        <li>curso b</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <!--
+    <ul>
+        <c:forEach items="${lista}" var="item">
+            <li>${item}</li>
+        </c:forEach>
+    </ul>-->
+    <br>
+    <hr>
+    <!-- TABLAS -->
+    <table>
+        <thead>
+            <tr>
+                <th>Edad</th>
+                <th>Nombre</th>
+                <th>Apellido Paterno</th>
+                <th>Apellido Materno</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>25</td>
+                <td>Francisco</td>
+                <td>Cid</td>
+                <td>Segovia</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+</body>
+
+</html>
